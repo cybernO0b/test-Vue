@@ -1,7 +1,7 @@
 <template>
     <div class="app-main-layout">
       
-      <Navbar @click="isOpen = !isOpen" />
+      <Navbar @clickMenu="isOpen = !isOpen" />
   
       <Sidebar v-model="isOpen" />
       
