@@ -7,7 +7,7 @@
       active-class="active"
       :to="link.url"
       custom
-      v-slot="{ href, navigate, isExactActive }"
+      v-slot="{ href, route, navigate, isActive, isExactActive }"
     >
       <li :class="[isExactActive && 'active']">
         <a :href="href" @click="navigate" class="waves-effect waves-orange pointer">{{
